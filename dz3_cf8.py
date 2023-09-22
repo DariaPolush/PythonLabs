@@ -6,7 +6,7 @@ with open('C:/Users/admin/Downloads/СФ8.txt') as file:
 mx = 0
 mn = 0
 
-for i in range(1, s[1]+1):
+for i in range(1, s[0]+1):
     if s[i] == max(s):
         mx = i
     if s[i] == min(s):
